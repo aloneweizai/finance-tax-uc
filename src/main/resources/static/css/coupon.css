@@ -1,0 +1,266 @@
+.coupon_a{
+	height: 30px;
+	line-height: 30px;
+	background: #00bcd4;
+	width: 120px;
+	float: right;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+.coupon_asingle{
+	width: 211px;
+	float: left;
+	margin: 5px;
+	background: #f8f8f8;
+	position: relative;
+	height: 290px;
+}
+.coupon_asingle img{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+.coupon_asingle:nth-child(4){
+	width: 24%;
+	float: left;
+	background: #f8f8f8;
+	margin-right: 0px;
+}
+.coupon_asingle .coupon_img{
+	background: url(images/huibeijing.jpg) no-repeat;
+	color: rgba(44,145,147,1);
+	position: relative;
+	width: 100%;
+	background-size: 100% 100%;
+	padding: 5px;
+}
+
+.coupon_asingle .coupon_img_ok{
+	background: url("../images/lbeijing.png") no-repeat;
+	color: rgba(44,145,147,1);
+	position: relative;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+.coupon_asingle .coupon_img .couponimg_top sup{
+	font-size: 21px;
+	color: #FFFFFF;
+	top: -0.7em;
+	font-weight: 600;
+}
+.coupon_asingle .coupon_img .coupon_bottom{
+	padding: 20px 0px 20px 0px;
+	color: #959595;
+	font-size: 12px;
+}
+.coupon_asingle .coupon_img p{
+	height: 18px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.coupon_asingle .coupon_img .couponimg_top{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding: 15% 10px 0px 10px;
+}
+.coupon_asingle .coupon_img .couponimg_top h3{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 4px 0px 0px;
+}
+.coupon_asingle .coupon_img .couponimg_top h3 font{
+	color: rgba(44,145,147,1);
+}
+
+
+.coupon_asingle .coupon_img_ok .couponimg_top sup{
+	font-size: 21px;
+	color: #FFFFFF;
+	top: -0.7em;
+	font-weight: 600;
+}
+.coupon_asingle .coupon_img_ok .coupon_bottom{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.coupon_asingle .coupon_img_ok p{
+	height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.coupon_asingle .coupon_img_ok .couponimg_top{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding: 12% 10px 0px 10px;
+}
+.coupon_asingle .coupon_img_ok .couponimg_top h3{
+	display: inline-block;
+	font-size: 42px;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 4px 0px 0px;
+}
+.coupon_asingle .coupon_img_ok .couponimg_top h3 font{
+	color: rgba(44,145,147,1);
+}
+
+.coupon_asingle .coupon_content{
+	padding: 12px;
+	height: 100px;
+}
+.coupon_asingle .coupon_content p{
+	line-height: 26px;
+	font-size: 12px;
+}
+.coupon_asingle .coupon_content p small{
+	color: #959595;
+	font-size: 12px;
+}
+.coupon_asingle .immediateuse{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 12px;
+	text-align: center;
+	border: 1px solid #00bcd4;
+	color: #00bcd4;
+	font-size: 16px;
+	margin: 0 auto;
+	display: block;
+}
+.atthebottom{
+	background: #f8f8f8;
+}
+.coupon_immediateuse{
+	overflow: hidden;
+	height: 40px;
+	margin-top: 10px;
+}
+.yhj_padding{
+	padding-top: 20px;
+	overflow: hidden;
+}
+.triangle_box{
+	width: 20px;
+	height: 20px;
+}
+.triangle{
+	/*border-top: 20px solid #f8f8f8;
+	border-left: 20px solid transparent;*/
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+
+}
+.triangle i{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	top: 3px;
+	right: 5px;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	transform:rotate(0deg);
+	-moz-transform:rotate(0deg); /* Firefox 4 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+	-o-transform:rotate(0deg); /* Opera */
+}
+.coupon_asingle .coupon_img:hover i{
+	z-index: 1;
+	cursor: pointer;
+	display: block;
+	animation:myfirst 0.5s;
+	-moz-animation:myfirst 0.5s; /* Firefox */
+	-webkit-animation:myfirst 0.5s; /* Safari and Chrome */
+	-o-animation:myfirst 0.5s; /* Opera */
+	transform:rotate(90deg);
+	-moz-transform:rotate(90deg); /* Firefox 4 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
+.coupon_asingle .coupon_img_ok:hover i{
+	z-index: 1;
+	cursor: pointer;
+	display: block;
+	animation:myfirst 0.5s;
+	-moz-animation:myfirst 0.5s; /* Firefox */
+	-webkit-animation:myfirst 0.5s; /* Safari and Chrome */
+	-o-animation:myfirst 0.5s; /* Opera */
+	transform:rotate(90deg);
+	-moz-transform:rotate(90deg); /* Firefox 4 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
+@keyframes myfirst
+{
+	from {
+		transform:rotate(0deg);
+		-moz-transform:rotate(0deg); /* Firefox 4 */
+		-webkit-transform:rotate(0deg); /* Safari and Chrome */
+		-o-transform:rotate(0deg); /* Opera */}
+	to {
+		transform:rotate(90deg);
+		-moz-transform:rotate(90deg); /* Firefox 4 */
+		-webkit-transform:rotate(90deg); /* Safari and Chrome */
+		-o-transform:rotate(90deg); /* Opera */}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+	from {
+		transform:rotate(0deg);
+		-moz-transform:rotate(0deg); /* Firefox 4 */
+		-webkit-transform:rotate(0deg); /* Safari and Chrome */
+		-o-transform:rotate(0deg); /* Opera */}
+	to {
+		transform:rotate(90deg);
+		-moz-transform:rotate(90deg); /* Firefox 4 */
+		-webkit-transform:rotate(90deg); /* Safari and Chrome */
+		-o-transform:rotate(90deg); /* Opera */}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {
+		transform:rotate(0deg);
+		-moz-transform:rotate(0deg); /* Firefox 4 */
+		-webkit-transform:rotate(0deg); /* Safari and Chrome */
+		-o-transform:rotate(0deg); /* Opera */}
+	to {
+		transform:rotate(90deg);
+		-moz-transform:rotate(90deg); /* Firefox 4 */
+		-webkit-transform:rotate(90deg); /* Safari and Chrome */
+		-o-transform:rotate(90deg); /* Opera */}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+	from {
+		transform:rotate(0deg);
+		-moz-transform:rotate(0deg); /* Firefox 4 */
+		-webkit-transform:rotate(0deg); /* Safari and Chrome */
+		-o-transform:rotate(0deg); /* Opera */}
+	to {
+		transform:rotate(90deg);
+		-moz-transform:rotate(90deg); /* Firefox 4 */
+		-webkit-transform:rotate(90deg); /* Safari and Chrome */
+		-o-transform:rotate(90deg); /* Opera */}
+}
+
+/*
+width: 0;
+height: 0;
+border-top: 100px solid red;
+border-left: 100px solid transparent;*/

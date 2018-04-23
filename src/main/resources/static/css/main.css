@@ -1,0 +1,125 @@
+/* CSS Document */
+html {
+	color: #000;
+}
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, dd, dt, dl {
+	margin: 0;
+	padding: 0;
+}
+body{ background:#ECF0F5}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+textarea:focus, input:focus{
+	
+	border-color:rgba(82, 168, 236, 0.8);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+	outline:0  none; background:#fff;
+	
+	}
+textarea, input{
+	background:#fff; border-radius:3px; border:1px solid #ccc;
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+li {
+	list-style: none;
+}
+
+a:focus, a:hover{   text-decoration:none}
+caption, th {
+	text-align: left;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit; padding:2px 10px;
+}
+.clear {
+	clear: both;
+}
+.fl {
+	float: left
+}
+.fr {
+	float: right;
+}
+.margin_n {
+	margin: 0;
+}
+.btn-bj-red {
+	background: #DD4B39;
+}
+.btn-bj-red2 {
+	background: #F56954;
+}
+.btn-bj-yellow {
+	background: #FFBB4E;
+}
+.btn-bj-blue {
+	background: #3C8DBC;
+}
+.btn-bj-green {
+	background:#70C846;
+}
+.color_r2 {
+	color: #F56954;
+}
+.color_y {
+	color: #FFBB4E;
+}
+.color_b {
+	color: #3C8DBC;
+}
+.color_g {
+	color:#70C846;
+}
+
+.color_f {
+	color: #fff;
+}
+.color_4 {
+	color: #444;
+}
+.color_9 {
+	color: #999;
+}
+.color_red {
+	color: #DD4B39
+}
+.color_yellow {
+	color: #F39C12
+}
+.font_12 {
+	font-size: 12px;
+}
+.glyphicon {
+	top: 0;
+}
+.btn-info a{ color:#fff;}
+.m_left_10{ margin-left:10px;}
+.text_c{ text-align:center;}
+.text_l{ text-align:left;}
+.text_r{ text-align:right;}
+.p_abs{ position:absolute;}
+.p_rel{ position:relative; z-index:8;}
+.page_none{ border:1px solid #f4f4f4; cursor:text}

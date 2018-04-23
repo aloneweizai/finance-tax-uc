@@ -1,0 +1,210 @@
+.personal-box{
+    padding: 40px 0 0 20px;
+}
+.personal-box .top-box h3{
+    color: #a14be2;
+    font-size: 16px;
+    padding-left: 6px;
+    border-left: 3px solid #a14be2;
+    line-height: 16px;
+}
+.personal-box .item{
+    margin-top: 20px;
+}
+.personal-box .container{
+    width: 98.4%;
+    background: #eeeeee;
+    padding: 20px 0 30px 20px;
+    margin: 0;
+}
+.personal-box .container:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.personal-box .container .row .img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 2px solid #14b9d5;
+}
+.personal-box .container .row .img .list{
+   margin: 0;
+}
+.personal-box .container .row .img{
+    float: left;
+}
+.personal-box .container .row .upload button{
+    height: 34px;
+    line-height: 34px;
+   margin: 20px 0 0 16px;
+}
+.personal-box .container .row ul{
+    float: left;
+    padding-left: 40px;
+}
+.personal-box .container .row ul li{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.personal-box .container .row ul li:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.personal-box .container .row .dizhi p,
+.personal-box .container .row ul li p{
+    width: 100px;
+    float: left;
+}
+.personal-box .container .row .dizhi span,
+.personal-box .container .row ul li span{
+    color: #989898;
+    margin-top: 4px;
+    float: left;
+}
+.personal-box .container .row{
+    position: relative;
+}
+.personal-box .container .row .dizhi{
+    position: absolute;
+    left: 164px;
+    bottom: -6px;
+}
+.bottom-box ul li{
+    background: #eeeeee;
+    border-radius: 4px;
+    float: left;
+    width: 19.4%;
+    padding: 1% 2%;
+    height: 46px;
+    margin: 20px 1.4% 0 0;
+}
+.bottom-box ul li .icon-box{
+    float: left;
+}
+.bottom-box ul li .icon-box .icon{
+    float: left;
+}
+.bottom-box ul li .icon-box .icon i{
+    font-size: 46px;
+    color: #14b9d5;
+}
+.bottom-box ul li .text{
+    float: left;
+    margin-left: 10px;
+
+}
+.bottom-box ul li .conn{
+    float: right;
+    padding-top: 4px;
+}
+.bottom-box ul li .text h4{
+    font-size: 18px;
+    margin-top: 2px;
+}
+.bottom-box ul li .text p{
+    color: #ffaf37;
+    margin-top: 2px;
+}
+.bottom-box ul li .conn i{
+    font-size: 36px;
+    color: #d1d1d1;
+    height: 50px;
+
+}
+.bottom-box ul li:hover .conn i{
+    color: #14b9d5;
+}
+.Certification{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.Certification .title{
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    background: #f2f2f2;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px 0 20px;
+    color: #333;
+    width: 100%;
+}
+.Certification h2{
+    z-index: 101;
+    background: none;
+}
+.Certification h2>i{
+    left: 96.6%;
+}
+.Certification .title i{
+    color: #14B9D5;
+    font-size: 20px;
+    float: left;
+    margin-right: 6px;
+}
+.Certification .title span{
+    font-size: 16px;
+}
+.form{
+    padding: 30px 40px;
+}
+.form label{
+    width: 100px;
+    text-align: left;
+}
+.form input{
+    width: 260px;
+}
+.form .yzm{
+    width: 160px;
+    float: left;
+}
+.form .block a{
+    float: left;
+    background: #c2c2c2;
+    margin-left: 14px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 86px;
+    color: #fff;
+}
+.form h3{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.demonstration:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.demonstration .img{
+    float: left;
+    margin-right: 20px;
+}
+.demonstration ul li{
+    margin-bottom: 14px;
+}
+.form .btn{
+    margin-left: 130px;
+    background-color: #14B9D5;
+}
+.titles h2{
+    font-size: 20px;
+    color: #14B9D5;
+    margin-bottom: 10px;
+}
+.titles span{
+    color: #999;
+}
+.drag{
+    width: 200px;
+    height: 130px;
+}
+.drag img{
+    width: 100%;
+}
+

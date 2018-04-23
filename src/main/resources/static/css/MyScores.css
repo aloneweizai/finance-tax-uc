@@ -1,0 +1,86 @@
+
+.yellow{
+    color: #ffaf37;
+}
+.MyScores-box{
+}
+.MyScores-box .top-box h3{
+    color: #a14be2;
+    font-size: 16px;
+    padding-left: 6px;
+    border-left: 3px solid #a14be2;
+    line-height: 16px;
+}
+.MyScores-box .top-box a{
+    float: right;
+    color: #00bcd4;
+}
+.MyScores-box .my-box{
+    height: 160px;
+    margin-top: 14px;
+}
+.MyScores-box .my-box ul li{
+    height: 120px;
+    width: 32.6%;
+    margin-right: 1%;
+    float: left;
+    position: relative;
+}
+.MyScores-box .my-box ul li+li+li{
+    margin-right: 0;
+}
+
+.MyScores-box .my-box ul li img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 10px;
+    bottom: 20px;
+}
+.MyScores-box .my-box ul li .jifenxinxi{
+    margin:5px 0 0 15px;
+}
+.MyScores-box .my-box ul li .jifenxinxi span{
+    color: #fff;
+}
+.MyScores-box .my-box ul li .jifenxinxi p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+}
+.MyScores-box .my-box ul li .jifenxinxi button{
+    opacity: 1;
+    background: #fff;
+    margin-top: 12px;
+    height: 30px;
+    line-height: 30px;
+    color: #ff6600;
+    border-radius: 5px;
+}
+
+
+.date-box{
+    float: right;
+    margin-top: 20px;
+}
+.MyScores-box .bottom-box{
+    margin-top: 20px;
+}
+.Paging-box{
+    float: right;
+    margin-right: 20px;
+}
+
+
+.layui-tab-content{
+    padding: 0;
+}
+
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after {
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #a14be2;
+}
+.layui-tab-brief>.layui-tab-title .layui-this {
+    color: #a14be2;
+}

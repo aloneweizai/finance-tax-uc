@@ -1,0 +1,190 @@
+
+/*----------我的优惠券--------------*/
+.layui-tab{margin:0;}
+.layui-tab .layui-tab-title{background: #fff;}
+.layui-tab .layui-tab-title li{padding: 0 8px;}
+.layui-tab-content{padding: 0 0 50px 0;}
+
+.coupon_a{
+	height: 40px;
+	line-height: 40px;
+	background: #00bcd4;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	color: #fff;
+	font-weight: 100;
+	font-size: 16px;
+	text-align: center;
+}
+.coupon_asingle{
+	width: 48%;
+	float: left;
+	margin: 1%;
+	background: #fff;
+	position: relative;
+	height: 280px;
+}
+.coupon_asingle img{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+.coupon_asingle:nth-child(4){
+	width: 24%;
+	float: left;
+	background: #f8f8f8;
+	margin-right: 0px;
+}
+.coupon_asingle .coupon_img{
+	background: url(images/huibeijing.jpg) no-repeat;
+	color: rgba(44,145,147,1);
+	position: relative;
+	width: 100%;
+	background-size: 100% 100%;
+	padding: 5px;
+}
+
+.coupon_asingle .coupon_img_ok{
+	background: url("../images/lbeijing.png") no-repeat;
+	color: rgba(44,145,147,1);
+	position: relative;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+.coupon_asingle .coupon_img .couponimg_top sup{
+	font-size: 21px;
+	color: #FFFFFF;
+	top: -0.7em;
+	font-weight: 600;
+}
+.coupon_asingle .coupon_img .coupon_bottom{
+	color: #959595;
+	font-size: 12px;
+}
+.coupon_asingle .coupon_img p{
+	height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.coupon_asingle .coupon_img .couponimg_top{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding: 15% 10px 0px 10px;
+}
+.coupon_asingle .coupon_img .couponimg_top h3{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 4px 0px 0px;
+}
+.coupon_asingle .coupon_img .couponimg_top h3 font{
+	color: rgba(44,145,147,1);
+}
+
+
+.coupon_asingle .coupon_img_ok .couponimg_top sup{
+	font-size: 21px;
+	color: #FFFFFF;
+	top: -0.7em;
+	font-weight: 600;
+}
+.coupon_asingle .coupon_img_ok .coupon_bottom{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.coupon_asingle .coupon_img_ok p{
+	height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.coupon_asingle .coupon_img_ok .couponimg_top{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding: 12% 10px 0px 10px;
+}
+.coupon_asingle .coupon_img_ok .couponimg_top h3{
+	display: inline-block;
+	font-size: 42px;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 4px 0px 0px;
+}
+.coupon_asingle .coupon_img_ok .couponimg_top h3 font{
+	color: rgba(44,145,147,1);
+}
+
+.coupon_asingle .coupon_content{
+	padding: 12px;
+	height: 100px;
+}
+.coupon_asingle .coupon_content p{
+	line-height: 26px;
+	font-size: 12px;
+}
+.coupon_asingle .coupon_content p small{
+	color: #959595;
+	font-size: 12px;
+}
+.coupon_asingle .immediateuse{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 12px;
+	text-align: center;
+	border: 1px solid #00bcd4;
+	color: #00bcd4;
+	font-size: 16px;
+	margin: 0 auto;
+	display: block;
+}
+.atthebottom{
+	background: #f8f8f8;
+}
+.coupon_immediateuse{
+	overflow: hidden;
+	height: 40px;
+	margin-top: 10px;
+}
+.yhj_padding{
+	padding-top: 5px;
+	overflow: hidden;
+}
+.triangle_box{
+	width: 20px;
+	height: 20px;
+}
+.triangle{
+	/*border-top: 20px solid #f8f8f8;
+	border-left: 20px solid transparent;*/
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+
+}
+.triangle i{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 5px;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+
+}
+
+
+
+/*
+width: 0;
+height: 0;
+border-top: 100px solid red;
+border-left: 100px solid transparent;*/

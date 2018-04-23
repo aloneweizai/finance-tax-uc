@@ -1,0 +1,124 @@
+.privilege-box .top-box h3{
+    color: #a14be2;
+    font-size: 16px;
+    padding-left: 6px;
+    border-left: 3px solid #a14be2;
+    line-height: 16px;
+}
+.privilege-box{
+}
+.privilege-box .top-box{
+    width: 100%;
+}
+.privilege-box .top-box .article-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.vip_kaitonghuiyuan{
+    width: 270px;
+    float: left;
+    margin:30px 0 30px 110px;
+}
+
+.privilege-box .top-box .article{
+    width: 270px;
+    border: 1px solid #f0f0f0;
+    height:410px;
+    padding:20px;
+    margin: 0 auto;
+    transition: all 0.5s;
+    background: #f7f7f7;
+    overflow: hidden;
+    position: relative;
+}
+.privilege-box .top-box .article .tishi_absolute{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    height: 40px;
+    width: 80%;
+    margin-right: 10%;
+    border-radius: 100px;
+    background:#000;
+    opacity: 0.7;
+    transition: all 1s;
+    display: none;
+}
+.privilege-box .top-box .article .tishi_absolute .txt{
+    position: absolute;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.privilege-box .top-box .article:hover .tishi_absolute{
+    display: block;
+    -webkit-animation: moveToRight .6s ease both;
+    animation: moveToRight .6s ease both;
+}
+
+
+@-webkit-keyframes moveToRight {
+    from {-webkit-transform: translateX(100%); }
+}
+@keyframes moveToRight {
+    from {-webkit-transform: translateX(100%); transform: translateX(100%); }
+}
+
+.privilege-box .top-box .article:hover{
+    box-shadow: 0 0 18px #ccc;
+    background: #fff;
+}
+.privilege-box .top-box .article .img img{
+    transition: all 1s;
+}
+.privilege-box .top-box .article:hover .img img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+.privilege-box .top-box .article-box .img{
+    transition: all 0.5s;
+    width: 230px;
+    overflow: hidden;
+    border-radius:10px;
+}
+.privilege-box .top-box .article-box .img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.privilege-box .top-box .article-box .price-box{
+    margin: 22px auto 0 auto;
+}
+.privilege-box .price-box .price h4{
+    font-size: 15px;
+    color: #202020;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.privilege-box .price-box .price h4 em{
+    font-size: 32px;
+    color: #ffaf37;
+}
+.privilege-box .price-box .price h4 span{
+    color: #14b9d5;
+}
+.privilege-box .price-box{
+    position: relative;
+}
+.privilege-box .price-box .price p{
+    color: #666;
+    font-size: 16px;
+}
+.privilege-box .price-box .price p span{
+    margin-left: 6px;
+}
+.privilege-box .price-kthy-btn{
+    width: 100%;
+    font-size: 20px;
+    line-height: 46px;
+    height: 46px;
+    border-radius: 6px;
+    margin-top: 10px;
+}

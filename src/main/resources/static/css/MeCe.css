@@ -1,0 +1,106 @@
+.MeCe-box{background: #3e0f6f}
+.left-box {
+    position: relative;
+    width: 260px;
+    background: #fff;
+}
+.left-box .left{
+    width: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.left-box>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2;
+}
+.left-box .cent-box{
+    background: rgba(000,000,000,0.2);
+    padding:10px;
+    margin: 14px 0 10px 0;
+}
+.left-box .bottom:after,
+.left-box .cent-box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.left-box .cent {
+    width: 220px;
+    margin: 0 auto;
+}
+.left-box .cent .img{
+    float: left;
+    margin-right: 10px;
+}
+.left-box .cent .img img{
+    width: 80px;
+    border-radius: 5px;
+}
+.left-box .cent .vip p{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+}
+.left-box .cent .vip a{
+    color: #fcff00;
+    font-size: 14px;
+}
+.left-box .bottom{
+    width: 220px;
+    margin: 0 auto;
+}
+.left-box .bottom ul li{
+    float: left;
+    margin: 10px 20px;
+    text-align: center;
+}
+.left-box .bottom ul li:hover a i,
+.left-box .bottom ul li:hover p{
+    color: #fff;
+}
+.left-box .bottom ul li:hover a{
+    border-color: #fff;
+}
+.left-box .bottom ul li a{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #f1d291;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.left-box .bottom ul li a i{
+    font-size: 40px;
+    color: #f1d291;
+    line-height: 68px;
+    text-align: center;
+}
+.left-box .bottom ul li p{
+    color: #f1d291;
+    font-size: 16px;
+    margin-top: 6px;
+}
+#bjs{
+    background: #3d0f6d;
+    width: 288px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.right-box{
+    margin-left: 260px;
+    min-height:863px;
+    background: #fff;
+}
+.left-box div.top{
+    padding:10px 0 0px;
+    text-align: center;
+}
+.left-box div.top img{
+    width: 220px;
+}
